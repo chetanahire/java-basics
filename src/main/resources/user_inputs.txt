@@ -1,4 +1,4 @@
-BUCKET_NAME :   <YOUR_BUCKET_NAME>
-ACCESS_KEY  :   <YOUR_ACCESS_KEY>
-SECRETE_KEY :   <YOUR_SECRETE_KEY>
-REGION      :   <YOUR_REGION>
+BUCKET_NAME     : <your_bucket_name>
+ACCESS_KEY      : <your_access_key>
+SECRETE_KEY     : <your_secrete_key>
+REGION          : <your_region>

@@ -1,5 +1,8 @@
 # How to run:
-To work with this utility you have to add txt file in program arguments
+To work with this utility you have to add txt file in program arguments,
+You can also use template **(user_inputs.txt)** file added in resources.
+First priority is always your added own file in program arguments, If it is not there
+then it uses resource folder file.
 
 File structure must be like:
 

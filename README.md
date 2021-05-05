@@ -1,7 +1,7 @@
 # AWS Utility:
 * To work with this utility you have enable maven profile mvn  **-P aws-profile**
 
-* #####How to run:
+* How to run:
     * To work with this utility you have to add txt file in program arguments,
 You can also use template **(user_inputs.txt)** file added in resources.
 First priority is always your added own file in program arguments, If it is not there

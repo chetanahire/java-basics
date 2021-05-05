@@ -5,10 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.cs</groupId>
-    <artifactId>com.cs.awss3bucket</artifactId>
+    <artifactId>com.cs.parent</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <name>com.cs.awss3bucket</name>
+    <modules>
+        <module>aws</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,18 +22,6 @@
     </properties>
 
     <dependencies>
-        <!-- https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3 -->
-        <dependency>
-            <groupId>com.amazonaws</groupId>
-            <artifactId>aws-java-sdk-s3</artifactId>
-            <version>${amazonaws.s3bucker.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>${commons-io.version}</version>
-        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -58,4 +49,13 @@
             </plugins>
         </pluginManagement>
     </build>
+
+    <profiles>
+        <profile>
+            <id>aws-profile</id>
+            <modules>
+                <module>aws</module>
+            </modules>
+        </profile>
+    </profiles>
 </project>
